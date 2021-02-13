@@ -1,0 +1,67 @@
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 170%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+	text-align: center;
+
+}
+
+
+/* Here is one of many  CSS rules you will need... */
+#one {
+	box-sizing: border-box;
+    border:5px solid black;
+    margin:5px;
+	padding:5px;
+	width: 25%;
+	position:fixed;
+	right:0;
+	bottom: 0;
+}
+#two{
+	border:5px solid black;	
+	margin-top:60px;
+	padding:5px;
+	width: 25%;
+	position: fixed;
+	right:0;
+	top:0;
+}
+#three{
+	border:5px solid black;
+	margin-top:60px;
+	padding:5px;
+	width: 25%;
+	position:fixed;
+	left:0;
+	top:0;
+
+}
+#four{
+	border:5px solid black;
+	margin:5px;
+	padding:5px;
+	width: 25%;
+	position: fixed;
+	left:0;
+	bottom:0;
+}
+img:hover{
+	cursor: pointer;
+	background-color: #000;
+	color: hotpink;
+}
+
+
+
+
